@@ -25,7 +25,6 @@ news_store = {STUDENT_ID: []}
 analyzer = SentimentIntensityAnalyzer()
 
 # This is a test comment to trigger GitHub Actions
-print("Hello, world!")
 
 
 @app.get("/sources/{student_id}")
