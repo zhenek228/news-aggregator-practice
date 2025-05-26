@@ -29,6 +29,7 @@ jobs:
         run: |
           pip install pytest pytest-asyncio
           pytest ../tests -q
+          pip install httpx  # Додано для встановлення httpx
 
   frontend-tests:
     name: "Frontend: перевірка доступності"
