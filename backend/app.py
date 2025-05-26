@@ -24,6 +24,9 @@ news_store = {STUDENT_ID: []}
 # Аналізатор тону
 analyzer = SentimentIntensityAnalyzer()
 
+# This is a test comment to trigger GitHub Actions
+print("Hello, world!")
+
 
 @app.get("/sources/{student_id}")
 def get_sources(student_id: str):
