@@ -2,13 +2,13 @@ name: CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   backend-tests:
-    name: Backend: запус тестів
+    name: Backend: запуск тестів
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
