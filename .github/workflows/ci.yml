@@ -8,7 +8,7 @@ on:
 
 jobs:
   backend-tests:
-    name: Backend: запуск тестів
+    name: "Backend: запуск тестів"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -31,7 +31,7 @@ jobs:
           pytest ../tests -q
 
   frontend-tests:
-    name: Frontend: перевірка доступності
+    name: "Frontend: перевірка доступності"
     runs-on: ubuntu-latest
     needs: backend-tests
     steps:
