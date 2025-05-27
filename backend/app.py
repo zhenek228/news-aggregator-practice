@@ -24,7 +24,7 @@ news_store = {STUDENT_ID: []}
 # Аналізатор тону
 analyzer = SentimentIntensityAnalyzer()
 
-# Це тестовий коментар для перевірки CIIII
+# Це тестовий коментар для перевірки CIIIII
 
 @app.get("/sources/{student_id}")
 def get_sources(student_id: str):
